@@ -21,6 +21,7 @@
 		C7BCC1AD19E9A0DD00C6EF3F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BCC18F19E9A0DD00C6EF3F /* UIKit.framework */; };
 		C7BCC1B519E9A0DD00C6EF3F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7BCC1B319E9A0DD00C6EF3F /* InfoPlist.strings */; };
 		C7BCC1B719E9A0DD00C6EF3F /* Test_Git_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BCC1B619E9A0DD00C6EF3F /* Test_Git_ProjectTests.m */; };
+		C7BCC1C219E9AB9400C6EF3F /* RFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BCC1C119E9AB9400C6EF3F /* RFTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C7BCC1B219E9A0DD00C6EF3F /* Test Git ProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test Git ProjectTests-Info.plist"; sourceTree = "<group>"; };
 		C7BCC1B419E9A0DD00C6EF3F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7BCC1B619E9A0DD00C6EF3F /* Test_Git_ProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test_Git_ProjectTests.m; sourceTree = "<group>"; };
+		C7BCC1C019E9AB9400C6EF3F /* RFTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFTest.h; sourceTree = "<group>"; };
+		C7BCC1C119E9AB9400C6EF3F /* RFTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		C7BCC17F19E9A0DD00C6EF3F = {
 			isa = PBXGroup;
 			children = (
+				C7BCC1C019E9AB9400C6EF3F /* RFTest.h */,
+				C7BCC1C119E9AB9400C6EF3F /* RFTest.m */,
 				C7BCC19119E9A0DD00C6EF3F /* Test Git Project */,
 				C7BCC1B019E9A0DD00C6EF3F /* Test Git ProjectTests */,
 				C7BCC18A19E9A0DD00C6EF3F /* Frameworks */,
@@ -253,6 +258,7 @@
 				C7BCC19C19E9A0DD00C6EF3F /* RFAppDelegate.m in Sources */,
 				C7BCC19819E9A0DD00C6EF3F /* main.m in Sources */,
 				C7BCC1A219E9A0DD00C6EF3F /* RFViewController.m in Sources */,
+				C7BCC1C219E9AB9400C6EF3F /* RFTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
